@@ -12,6 +12,8 @@ int main(int argc, char *argv[])
   double unitCost = 3.50;
   double cost = calculateCost(quantity,  unitCost);
   cout << "The cost is " << cost << endl;
+  double discounted = calculateDiscountedCost(discount, cost);
+  cout << "The discounted cost is " << discounted << endl;
   return 0;
 }
 
