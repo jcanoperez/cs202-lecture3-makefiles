@@ -20,6 +20,6 @@ double calculateCost(int quantity, double unitCost){
 }
 
 double calculateDiscountedCost(double discount, double baseCost){
-    return baseCost - discount * baseCost; // or baseCost(1.0 - discount)
+    return baseCost - 0.1 * discount * baseCost; // or baseCost(1.0 - discount)
 }
 
