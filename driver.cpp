@@ -7,7 +7,7 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-  int quantity = -4;
+  int quantity = 4; 
   double unitCost = 3.50;
   double discount = 10.2;
   double cost = calculateCost(quantity,  unitCost);
